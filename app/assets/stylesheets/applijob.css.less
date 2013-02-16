@@ -17,6 +17,11 @@
   transition-duration: 0.5s;
   transition-delay: 0s;
 }
+.border-radius(@radius: 4px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
 
 
 img {
@@ -46,6 +51,9 @@ img {
 }
 .page {
   margin-top: 20px;
+  min-height: 500px;
+  background-color: #fff;
+  padding: 20px;
 }
 .navbar .navbar-inner .lang {
   li > a {padding-left: 7px; padding-right: 7px;font-size: 14px;
@@ -67,6 +75,16 @@ img {
 .copyright {
   font-size: 10px;
   margin-top: 20px;
-  padding: 0px 15px;
+}
+.background-page {
+  @media (max-width: 767px) {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-right: 20px;
+    padding-left: 20px}
+  background-image: image-url("top3.png");
+  background-size: cover;
+  min-height: 300px;
+  background-repeat: no-repeat;
 }
 

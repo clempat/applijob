@@ -2,7 +2,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  Help: "Help"
+  help: "Help"
   sign_in: "Sign In"
   sign_up: "Sign Up"
   applications: "Applications"
@@ -17,3 +17,5 @@ en:
   improve_p: "Applijob.org show you statistics about which applications did not work, the average time between every step of your application."
   share: "Don't forget to share!"
   mentions: "Terms"
+  design: "Design Sample"
+  design_sub: "Want to see how it will appears ?"

@@ -19,37 +19,42 @@
       </a>
       <%= link_to(image_tag("logo.png"), root_url, :class => 'brand') %>
       <div class="nav-collapse collapse">
-          <ul class="nav pull-right">
-            <li><%= link_to(t(:help), root_url) %></li>
-            <li><%= link_to(t(:sign_in), root_url) %></li>
-            <li><%= link_to(t(:sign_up), root_url) %></li>
-          </ul>
-          <ul class="nav lang">
-            <li><%= link_to("DE", root_url) %></li>
-            <li><%= link_to("FR", root_url) %></li>
-            <li><%= link_to("EN", root_url) %></li>
-          </ul>
+        <ul class="nav pull-right">
+          <li><%= link_to(t(:help), root_url) %></li>
+          <li><%= link_to(t(:sign_in), root_url) %></li>
+          <li><%= link_to(t(:sign_up), root_url) %></li>
+        </ul>
+        <ul class="nav lang">
+          <li><%= link_to("DE", root_url) %></li>
+          <li><%= link_to("FR", root_url) %></li>
+          <li><%= link_to("EN", root_url) %></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
-<div class="background-page">
+<div class="top-banner">
   <div class="row">
-    <div class="container page">
-      <div class="page-header">
-        <h1><%= yield :title %>
-          <small><%= yield :subTitle %></small>
-        </h1>
-      </div>
-      <%= yield %>
+    <div class="hero-unit span11 offset1">
+      <h1><%= t :applications %></h1>
+
+      <p><%= t :organized %></p>
+
+      <p>
+        <%= link_to t(:sign_in), root_url, :class => "btn btn-primary btn-large" %>
+      </p>
     </div>
   </div>
+
+</div>
+<div class="container page">
+  <%= yield %>
 </div>
 <div class="bottom row-fluid">
   <div class="span8 offset2">
     <ul class="inline">
-      <li><%=image_tag("share.png") %></li>
-      <li><h2><%=t :share%></h2></li>
+      <li><%= image_tag("share.png") %></li>
+      <li><h2><%= t :share %></h2></li>
     </ul>
     <ul class="pull-right inline">
       <li><%= link_to(image_tag("facebook.png"), root_url) %></li>
@@ -59,7 +64,7 @@
   </div>
 </div>
 <div class="copyright row-fluid text-center">
-    <div class="span4 offset4">&copy; patataweb.com | Creation 2013 | <%=link_to(t(:mentions),root_url)  %></div>
+  <div class="span4 offset4">&copy; patataweb.com | Creation 2013 | <%= link_to(t(:mentions), root_url) %></div>
 </div>
 </body>
 </html>
