@@ -1,0 +1,32 @@
+<div id="sign_in" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signIn" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="signIn"><%=t 'shared.navbar.sign_in' %></h3>
+  </div>
+  <div class="modal-header body">
+    <%= render :partial => 'shared/google', :locals => {:title => t('shared.navbar.sign_in')} %>
+  </div>
+  <div class="modal-body">
+    <%= render :partial => 'shared/sign_in_form' %>
+    </fieldset>
+  </div>
+  <div class="modal-footer">
+    <%= render :partial => 'shared/sign_links' %>
+  </div>
+</div>
+<div id="sign_up" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signIn" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="signUp"><%=t 'shared.navbar.sign_up' %></h3>
+  </div>
+  <div class="modal-header body">
+    <%= render :partial => 'shared/google', :locals => {:title => t('shared.navbar.sign_up')} %>
+  </div>
+  <div class="modal-body">
+    <%= render :partial => 'shared/sign_up_form' %>
+    </fieldset>
+  </div>
+  <div class="modal-footer">
+
+  </div>
+</div>

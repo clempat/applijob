@@ -23,9 +23,39 @@
   border-radius: @radius;
 }
 
-
+#sign_in.modal, #sign_up.modal {
+  width:400px;
+  margin-left: -200px;
+  .modal-header {
+    text-align: center;
+  }
+  .modal-body, .modal-header.body {
+    padding-left: 50px;
+    padding-right: 50px;
+    legend {text-align: center;}
+  }
+  .modal-footer {
+    
+  }
+}
+.btn-google {
+  overflow: hidden;
+  i{
+    background-image: image-url('google2.png');
+    background-size: 44px 44px;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    margin: -11px 0px;
+    line-height: 20px;
+    float: left;
+  }
+}
 img {
   vertical-align: middle;
+}
+fieldset legend {
+  text-align: center;
 }
 .container {
   max-width: 940px;
@@ -87,4 +117,6 @@ img {
   min-height: 300px;
   background-repeat: no-repeat;
 }
-
+abbr[title="required"] {
+  color: red;
+}

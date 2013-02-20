@@ -1,0 +1,11 @@
+<fieldset>
+  <legend>Or with Applijob.org</legend>
+  <%= simple_form_for(@User, :as => :user, :url => registration_path(:user)) do |f| %>
+
+      <%= f.input :email, :required => true, :label => false, :input_html => {:class => 'input-block-level', :autofocus => true} %>
+      <%= f.input :password, :required => true, :label => false, :input_html => {:class => 'input-block-level', :minlength => '8'} %>
+      <%= f.input :password_confirmation, :required => true, :label => false, :input_html => {:class => 'input-block-level', 'data-validation-matches-match' => 'user[password]'} %>
+
+      <%= f.button :submit, t("shared.navbar.sign_up"), :class => 'btn-large btn-block' %>
+  <% end %>
+</fieldset>

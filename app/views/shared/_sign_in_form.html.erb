@@ -1,0 +1,9 @@
+<fieldset>
+  <legend>Or with Applijob.org</legend>
+    <%= simple_form_for("user", :url => user_session_path) do |f| %>
+        <%= f.input :email, :label => false, :input_html => {:class => 'input-block-level', :autofocus => true} %>
+        <%= f.input :password, :label => false, :input_html => {:class => 'input-block-level', :minlength => '8'} %>
+        <%= f.input :remember_me, :wrapper => :checkbox, :label => false, :inline_label => true, :as => :boolean %>
+        <%= f.button :submit, "Sign in", :class => 'btn-large btn-block' %>
+    <% end %>
+</fieldset>

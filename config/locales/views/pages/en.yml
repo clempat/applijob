@@ -1,0 +1,14 @@
+en:
+  pages:
+    index:
+      win_time: "Win Time"
+      win_time_p: "It is easy to add Jobs in applijob.org. Applijob.org reads the jobs description for you and show you a pre-filled form to help you to fill in quicker. You have a new application
+      to prepare, Applijob shows you which old application match with the new jobs description."
+      be_organized: "Be organized"
+      be_organized_p: "Applijob.org uses a system of keywords to organize your application, jobs, and CV. It has never been so easy to order your applications.
+      You can, as well, follow the statue of your application and get a remind in time. Make your own recall and take a look on your history."
+      improve: "Improve yourself"
+      improve_p: "Applijob.org show you statistics about which applications did not work, the average time between every step of your application."
+    design:
+      title: "Design Sample"
+      subtitle : "Would like to see how it displays!"

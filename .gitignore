@@ -20,3 +20,13 @@ config/database.yml
 config/deploy.rb
 
 .DS_Store
+
+config/environments/production.rb
+
+config/environments/development.rb
+
+app/.DS_Store
+
+app/assets/.DS_Store
+
+app/assets/images/.DS_Store

@@ -6,6 +6,12 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'simple_form'
+gem 'devise'
+gem 'omniauth-google-oauth2'
+
+#No Webtrick
+gem 'thin'
 
 
 # Gems used only for assets and not required

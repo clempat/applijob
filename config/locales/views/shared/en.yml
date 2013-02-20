@@ -1,0 +1,16 @@
+en:
+  shared:
+    google:
+      google: "%{title} with Google"
+    shared:
+      forgot_password: "Forgot password?"
+      sign_up: "Register"
+    navbar:
+      help: "Help"
+      sign_in: "Sign In"
+      sign_up: "Sign Up"
+      myaccount: "My account"
+      logout: "Logout"
+    bottom:
+      share: "Don't forget to share!"
+      mentions: "Terms"

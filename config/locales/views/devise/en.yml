@@ -1,0 +1,15 @@
+en:
+  devise:
+    sessions:
+      new:
+        title: "Sign in"
+        subtitle: ""
+    registrations:
+      new:
+        title: "Sign up"
+        subtitle: ""
+    passwords:
+      new:
+        title: "Forgot your password?"
+        subtitle: ""
+        btn: "Send instructions"

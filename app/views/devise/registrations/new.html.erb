@@ -1,0 +1,9 @@
+<div class="row-fluid">
+  <div class="span6 offset3">
+    <% content_for :title, t('.title')%>
+    <% content_for :subTitle, t('.subtitle')%>
+    <%= devise_error_messages! %>
+    <%= render :partial => 'shared/google', :locals => {:title => t('shared.navbar.sign_up')} %>
+    <%= render :partial => 'shared/sign_up_form' %>
+  </div>
+</div>

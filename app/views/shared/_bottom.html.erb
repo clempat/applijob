@@ -1,0 +1,18 @@
+<div class="bottom row-fluid">
+  <div class="span8 offset2">
+    <ul class="inline">
+      <li><%=image_tag("share.png") %></li>
+      <li><h2><%=t '.share'%></h2></li>
+    </ul>
+    <ul class="pull-right inline">
+      <li><%= link_to(image_tag("facebook.png"), root_url) %></li>
+      <li><%= link_to(image_tag("twitter.png"), root_url) %></li>
+      <li><%= link_to(image_tag("google.png"), root_url) %></li>
+    </ul>
+  </div>
+</div>
+<div class="copyright row-fluid text-center">
+  <div class="span4 offset4">&copy; patataweb.com | Creation 2013 | <%=link_to(t('.mentions'),root_url)  %></div>
+</div>
+<%= render :partial=>'shared/modal' %>
+
