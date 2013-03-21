@@ -1,1 +1,3 @@
 == Welcome to Applijob
+
+Applijob is now in developpment. 
